@@ -16,7 +16,7 @@
       <img src="/images/logo.svg" alt="logo">
       <img src="/images/icon-hamburger.svg" alt="icon-hamburger" class="ham" id="ham">
     </div>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <ul>
         <li class="navItem">Home</li>
         <li class="navItem">About</li>
@@ -37,36 +37,42 @@
     </article>
   </section>
   <section class="choose">
-    <h2> Why choose Easybank?</h2>
-    <h3 class="subtitile">We leverage Open Banking to turn your bank account into your financial hub. Control
-      your finances like never before.</h3>
     <div class="box">
-      Online Banking
-      Our modern web and mobile applications allow you to keep track of your finances
-      wherever you are in the world.
+      <h2> Why choose <br> Easybank?</h2>
+      <p class="subtitile">We leverage Open Banking to turn your bank account into your financial hub. Control
+        your finances like never before.</p>
     </div>
     <div class="box">
-      <h2>Simple Budgeting</h2>
+      <img src="/images/icon-online.svg" alt="icon-online">
+      <h3>Online Banking</h3>
+      <p>Our modern web and mobile applications allow you to keep track of your finances
+        wherever you are in the world.</p>
+    </div>
+    <div class="box">
+      <img src="/images/icon-budgeting.svg" alt="icon-budgeting">
+      <h3>Simple Budgeting</h3>
       <p>See exactly where your money goes each month. Receive notifications when you’re
         close to hitting your limits.</p>
     </div>
     <div class="box">
-      <h2>Fast Onboarding</h2>
+      <img src="/images/icon-onboarding.svg" alt="icon-onboarding">
+      <h3>Fast Onboarding</h3>
       <p>We don’t do branches. Open your account in minutes online and start taking control
         of your finances right away.</p>
     </div>
     <div class="box">
-      <h2>Open API</h2>
+      <img src="/images/icon-api.svg" alt="icon-api">
+      <h3>Open API</h3>
       <p> Manage your savings, investments, pension, and much more from one account. Tracking
         your money has never been easier.</p>
     </div>
   </section>
   <!-- Articles -->
   <section class="articles">
-    <h2> Latest Articles</h2>
+    <h2 class="latest"> Latest Articles</h2>
     <article class="card">
       <picture>
-        <img src="/images/image-currency.jpg" alt="image-currency" width="200px" height="200px">
+        <img src="/images/image-currency.jpg" alt="image-currency">
         <figcaption> By Claire Robinson</figcaption>
       </picture>
       <h3> Receive money in any currency with no fees</h3>
@@ -75,7 +81,7 @@
     </article>
     <article class="card">
       <picture>
-        <img src="/images/image-restaurant.jpg" alt="image-restaurant" width="200px" height="200px">
+        <img src="/images/image-restaurant.jpg" alt="image-restaurant">
         <figcaption> By Wilson Hutton</figcaption>
       </picture>
       <h3>Treat yourself without worrying about money</h3>
@@ -84,7 +90,7 @@
     </article>
     <article class="card">
       <picture>
-        <img src="/images/image-plane.jpg" alt="image-plane" width="200px" height="200px">
+        <img src="/images/image-plane.jpg" alt="image-plane">
         <figcaption> By Wilson Hutton</figcaption>
       </picture>
       <h3>Take your Easybank card wherever you go</h3>
@@ -95,7 +101,7 @@
     </article>
     <article class="card">
       <picture>
-        <img src="/images/image-confetti.jpg" alt="image-confetti" width="200px" height="200px">
+        <img src="/images/image-confetti.jpg" alt="image-confetti">
         <figcaption> By Claire Robinson</figcaption>
       </picture>
       <h3>Our invite-only Beta accounts are now live!</h3>
@@ -105,22 +111,20 @@
   </section>
   <footer class="footer">
     <div class="footer-box">
-      <img src="/images/logo.svg" alt="logo">
-      <span class="social">fb</span>
-      <span class="social">You</span>
-      <span class="social">TW</span>
-      <span class="social">Pinterest</span>
-      <span class="social">Instagra</span>
+      <img src="/images/logo44.svg" alt="logo" class="logo-bottom">
+      <div class="social_m">
+        <span class="social"><img src="/images/icon-facebook.svg" alt="icon-facebook"></span>
+        <span class="social"><img src="/images/icon-youtube.svg" alt="icon-youtube"></span>
+        <span class="social"><img src="/images/icon-twitter.svg" alt="icon-twitter"></span>
+        <span class="social"><img src="/images/icon-pinterest.svg" alt="icon-pinterest"></span>
+        <span class="social"><img src="/images/icon-instagram.svg" alt="icon-instagram"></span>
+      </div>
     </div>
     <div class="footer-box">
       <ul>
         <li class="footer-item">About Us</li>
         <li class="footer-item">Contact</li>
         <li class="footer-item">Blogo</li>
-      </ul>
-    </div>
-    <div class="footer-box">
-      <ul>
         <li class="footer-item">Carrers</li>
         <li class="footer-item">Support</li>
         <li class="footer-item">Privacy Policy</li>
@@ -128,7 +132,7 @@
     </div>
     <div class="footer-box">
       <button class="button">Request Invite</button>
-      <cite> © Easybank. All Rights Reserved</cite>
+      <blockquote class="copy"> © Easybank. All Rights Reserved</blockquote>
     </div>
   </footer>
 
@@ -136,6 +140,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="script.js"></script>
 </body>
 
 </html>

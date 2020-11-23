@@ -52,9 +52,10 @@ body{
     transform: translateX(0);
   }
   .navbar .navItem{
-    line-height: 2rem;
+    line-height: 2.2rem;
     width: 100%;
   }
+
   .logo{
     z-index: 10;
     height: 60px;
@@ -99,6 +100,92 @@ body{
     color: var(--White);
     font-size: 1rem;
     width: 180px;
+  }
+  .box{
+    height: 250px;
+    background-color: var(--Light-Grayish-Blue);
+    text-align: center;
+  }
+  .box h2{
+    color: var(--Dark-Blue);
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  .box h3{
+    color: var(--Dark-Blue);
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .box p{
+    color: var(--Grayish-Blue);
+    text-align:center;
+  }
+  
+  .articles img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .articles{
+    background-color: #eee;
+  }
+  
+  .card{
+   background-color: #fff;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px 10px 0 0;
+   text-align: justify;
+   margin-bottom: 20px;
+  }
+  .card h3{
+    color: var(--Dark-Blue);
+    font-weight: 400;
+  }
+  .card p{
+    color: var(--Grayish-Blue);
+  }
+  .latest{
+    color: var(--Dark-Blue);
+    text-align: center;
+    background-color: #fff;
+    font-size: 2rem;
+  }
+  figcaption{
+    color: var(--Grayish-Blue);
+  }
+  .footer{
+    margin-top: 80px;
+    background-color: var(--Dark-Blue);
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-box .button{
+    margin-left: 25%;
+  }
+  .footer ul{
+    list-style: none;
+  }
+  .logo-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .social-m{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer-item{
+    font-weight: 400;
+    line-height: 2rem;
+  }
+  .footer-box .copy{
+    color: var(--Grayish-Blue);
   }
 }
 
