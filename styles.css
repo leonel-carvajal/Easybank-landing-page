@@ -467,5 +467,10 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
   }
-
+  .attribution a{
+    color: var(--White);
+  }
+  a:last-child{
+    color: var(--Lime-Green);
+  }
 }
